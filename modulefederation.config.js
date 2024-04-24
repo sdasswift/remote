@@ -20,10 +20,30 @@ module.exports = {
       eager: true,
       requiredVersion: dependencies['react-dom'],
     },
+    'react-router-dom': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['react-router-dom'],
+    },
     'jotai': {
       singleton: true,
       eager: true,
       requiredVersion: dependencies['jotai'],
+    },
+    '@mui/material': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['@mui/material'],
+    },
+    '@emotion/react': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['@emotion/react'],
+    },
+    '@emotion/styled': {
+      singleton: true,
+      eager: true,
+      requiredVersion: dependencies['@emotion/styled'],
     },
   },
 };
